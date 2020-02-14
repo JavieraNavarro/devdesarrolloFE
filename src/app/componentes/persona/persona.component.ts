@@ -36,7 +36,7 @@ mostrar = false;
     console.log("sin salto",sinSalto);
     let x = sinSalto.split(" ");
     console.log("length",x.length);
-    if(x.length == 0 || x.length == 1 || x.length == 2 ){
+    if(x.length == 0 || x.length == 1 || x.length == 2 || x.length == 3 ){
       this.faltaNombre = true;
      return;
     } else {
@@ -60,6 +60,8 @@ mostrar = false;
     this.mostrar = true;
 
     this.personas.push(this.agregar);
+    this.fechaNacimiento= '';
+    this.nombreCompleto='';
     });
   }
 
